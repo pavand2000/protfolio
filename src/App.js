@@ -9,6 +9,7 @@ import Contact from './pages/Contact/Contact';
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./components/context/ThemeContext";
 import Tada from "react-reveal/Tada";
+import MobileNav from "./components/MobileNav/MobileNav";
 
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
@@ -17,8 +18,8 @@ function App() {
   return (
     <>
       <div id={theme}>
-        {/* <ToastContainer />
-        <MobileNav /> */}
+        {/* <ToastContainer /> */}
+        <MobileNav />
         <Layout />
         <div className="container">
           <About />
